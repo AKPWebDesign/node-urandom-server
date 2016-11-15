@@ -1,0 +1,28 @@
+{
+  "name": "node-urandom-server",
+  "version": "1.0.0",
+  "description": "A node.js web server that just serves from /dev/urandom.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AKPWebDesign/node-urandom-server.git"
+  },
+  "keywords": [
+    "urandom",
+    "express",
+    "random"
+  ],
+  "author": "Austin Peterson <austin@akpwebdesign.com> (https://blog.akpwebdesign.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AKPWebDesign/node-urandom-server/issues"
+  },
+  "homepage": "https://github.com/AKPWebDesign/node-urandom-server#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "randbytes": "0.0.1"
+  }
+}
