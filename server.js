@@ -1,9 +1,9 @@
-var e = require('express')
-var a = e()
-var p = process.env.PORT || 8080
-var r = new (require('randbytes')).urandom.getInstance()
-var b = process.env.BYTES || 5000;
-var u = process.env.MAX_BYTES || 500000
+let e = require('express'),
+    a = e(),
+    p = process.env.PORT || 8080,
+    r = new (require('randbytes')).urandom.getInstance(),
+    b = process.env.BYTES || 5000,
+    u = process.env.MAX_BYTES || 500000
 
 a.get('/', (req, res) => {
   r.getRandomBytes(b, (b) => {
