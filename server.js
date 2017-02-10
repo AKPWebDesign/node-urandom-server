@@ -13,9 +13,9 @@ a.get('/', (req, res) => {
 })
 
 a.get('/:b', (req, res) => {
-  let b2 = null;
+  let b2 = null
   try {
-    b2 = parseInt(req.params.b, 10);
+    b2 = parseInt(req.params.b, 10)
     if(!b2 || b2 < 0) { b2 = b }
     b2 = Math.min(b2, u)
   } catch (e) {
